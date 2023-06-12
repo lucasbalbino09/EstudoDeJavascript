@@ -31,17 +31,17 @@ function criarElemento(e) {
 
     const novoItem = document.createElement("li")
 
-    const itemnumero = document.createElement("strong")
+    const itemnumero = document.createElement("li")
 
-    const itempreco = document.createElement("strong")
+    const itempreco = document.createElement("li")
 
     novoItem.classList.add("e")
 
-    novoItem.innerHTML += e.descricao
+    novoItem.innerHTML += `Descrição: ${e.descricao}`
 
-    itemnumero.innerHTML += e.quant
+    itemnumero.innerHTML += `Unidade: ${e.quant}`
 
-    itempreco.innerHTML += `R$ ${e.valor}`
+    itempreco.innerHTML += `<strong>R$ ${e.valor}</strong>`
 
     lista.appendChild(novoItem)
     novoItem.appendChild(itemnumero)
