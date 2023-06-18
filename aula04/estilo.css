@@ -40,7 +40,7 @@ table {
     cursor: pointer;
 }
 table :hover {
-    border: 10px solid rgb(56, 56, 92);
+    border: 8px solid rgb(56, 56, 92);
     background-color: rgb(150, 215, 255);
     transition: 1s;
 }
