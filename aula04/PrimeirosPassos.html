@@ -12,16 +12,25 @@
 <body>
     <h1>Olá, Mundo!</h1>
     <form id="novoItem">
-        Descricao: <input type="text" id="Descricao">
-        <br><br> Quantidade: <input type="number" id="quant">
-        <br><br> Valor: <input type="number" id="preco">
-        <br><br><input type="submit" value="Enviar">
+        <span>Descricao: </span><input type="text" id="Descricao">
+         <span>Quantidade:</span> <input type="number" id="quant">
+        <span>Valor: </span>  <input type="number" id="preco">
+        <input type="submit" value="Enviar" class="btn_enviar">
     </form>
-
     <div class="formulario">
-        <ul class="lista" id="lista">
+        <!-- <ul class="lista" id="lista"> -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descricao</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody class="lista" id="lista" >                  
+                </tbody>
+            </table>
     </div>
-
     <script src="Pagina.js"></script>
 </body>
 

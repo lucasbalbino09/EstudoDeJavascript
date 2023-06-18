@@ -24,3 +24,23 @@ strong {
     color: blue;
     /* text-transform: uppercase; */
 }
+
+.btn_enviar {
+    font-size: 16px;
+    border: none;
+    color: white;
+    width: 80px;
+    background-color:rgba(0, 0, 0, 0.227) ;
+}
+table {
+    border: 12px solid blue;
+    background-color: rgb(150, 215, 255);
+    transition: 1s; 
+    font-size: 25px;
+    cursor: pointer;
+}
+table :hover {
+    border: 30px solid rgb(56, 56, 92);
+    background-color: rgb(150, 215, 255);
+    transition: 1s;
+}

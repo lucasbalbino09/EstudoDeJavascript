@@ -29,23 +29,23 @@ form.addEventListener("submit", (e) => {
 
 function criarElemento(e) {
 
-    const novoItem = document.createElement("li")
+    const fechamento = document.createElement("tr");
+    const novoItem = document.createElement("td");
 
-    const itemnumero = document.createElement("li")
+    const itemnumero = document.createElement("td");
 
-    const itempreco = document.createElement("li")
+    const itempreco = document.createElement("td");      
 
-    novoItem.classList.add("e")
+    novoItem.innerHTML += e.descricao;
 
-    novoItem.innerHTML += `Descrição: ${e.descricao}`
+    itemnumero.innerHTML += e.quant;
 
-    itemnumero.innerHTML += `Unidade: ${e.quant}`
+    itempreco.innerHTML += e.valor;
 
-    itempreco.innerHTML += `<strong>R$ ${e.valor}</strong>`
-
-    lista.appendChild(novoItem)
-    novoItem.appendChild(itemnumero)
-    novoItem.appendChild(itempreco)
+    lista.appendChild(fechamento);
+    fechamento.appendChild(novoItem);
+    fechamento.appendChild(itemnumero);
+    fechamento.appendChild(itempreco);
 
 
 }
