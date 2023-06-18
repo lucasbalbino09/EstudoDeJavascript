@@ -31,10 +31,12 @@ function criarElemento(e) {
 
     const fechamento = document.createElement("tr");
     const novoItem = document.createElement("td");
-
     const itemnumero = document.createElement("td");
-
     const itempreco = document.createElement("td");      
+
+    novoItem.classList.add('Descricao')
+    itemnumero.classList.add('Quantidade')
+    itempreco.classList.add('Valor')
 
     novoItem.innerHTML += e.descricao;
 
