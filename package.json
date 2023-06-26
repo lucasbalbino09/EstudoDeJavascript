@@ -1,18 +1,24 @@
 {
-  "name": "estudodejavascript",
-  "version": "1.0.0",
-  "description": "Treinando JS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-json": "json-server --watch db.json"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "hyphen": "^1.6.6",
-    "json": "^11.0.0",
-    "server": "^1.0.38"
-  }
+    "name": "estudodejavascript",
+    "version": "1.0.0",
+    "description": "Treinando JS",
+    "main": "index.js",
+    "scripts": {
+        "serve-json": "json-server --watch db.json --port 3001"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucasbalbino09/EstudoDeJavascript"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lucasbalbino09/EstudoDeJavascript/issues"
+    },
+    "homepage": "https://github.com/lucasbalbino09/EstudoDeJavascript#readme",
+    "dependencies": {
+        "json": "^11.0.0",
+        "server": "^1.0.38"
+    }
 }

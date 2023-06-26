@@ -14,25 +14,23 @@
         <h1>Compras do Mês</h1>
     </div>
     <form id="novoItem">
-        <span>Descricao: </span><input type="text" id="Descricao">
-         <span>Quantidade:</span> <input type="number" id="quant">
-        <span>Valor: </span>  <input type="number" id="preco">
+        <span>Descricao: </span><input type="text" id="Descricao" required>
+        <span>Quantidade:</span> <input type="number" id="quant">
+        <span>Valor: </span> <input type="number" id="preco">
         <input type="submit" value="Enviar" class="btn_enviar">
     </form>
     <div class="formulario">
-        <!-- <ul class="lista" id="lista"> -->
-            <table>
-                <thead>
-                    <tr>
-                        <!-- <th class="excluir">X</th> -->
-                        <th>Descricao</th>
-                        <th>Quantidade</th>
-                        <th>Valor</th>
-                    </tr>
-                </thead>
-                <tbody class="lista" id="lista" >                  
-                </tbody>
-            </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descricao</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody class="lista" id="lista">
+            </tbody>
+        </table>
     </div>
     <script src="Pagina.js"></script>
 </body>
